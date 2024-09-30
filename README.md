@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+#InnovVidya Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Project Overview:
 
-## Available Scripts
+InnovVidya is a holistic web application aimed at reducing dropout rates in schools by providing personalized education, early interventions, and practical skill development opportunities for students. It uses cutting-edge technologies like AI and machine learning to track student performance, and innovative platforms like Edu-Lance to engage students in real-world projects.The project consists of multiple modules such as AI-Driven Early Warning System, Freelance Platforms, and Financial Aid Management, ensuring a comprehensive educational experience.
 
-In the project directory, you can run:
+##Features:
 
-### `npm start`
+1.AI-Driven Early Warning System:
+Uses AI to monitor students' attendance, grades, and emotional well-being.
+Predicts potential dropouts and alerts educators for timely interventions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2.Personalized Learning Paths:
+Offers customized learning journeys for students based on their academic progress.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3.Freelance Platforms:
+Edu-Lance for students (Grades 8-10) to earn academic credits.
+Freelance Hub (Grades 11-12) provides actual freelancing jobs for students.
 
-### `npm test`
+4.Scholarship and Financial Aid Management:
+Simplified discovery and application for financial aid with AI-driven assistance.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5.Virtual Mentoring and Counseling:
+Provides on-demand access to mentors and emotional counselors for students.
 
-### `npm run build`
+6.Mobile Accessibility:
+Full mobile support for students to access resources from any device.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##Technologies Used:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Frontend: React, React-Spring for animations, Material-UI for components, and CSS3 for styling.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Backend: Express.js (to be implemented in later phases).
 
-### `npm run eject`
+Database: MongoDB (to be integrated for user data, student tracking, etc.).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+AI & Machine Learning: Python, TensorFlow (for predictive analytics and early warning systems).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Version Control: Git, GitHub.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Deployment: (TBD for phase 2)
