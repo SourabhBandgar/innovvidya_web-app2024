@@ -1,0 +1,19 @@
+.footer-section {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-section a {
+  color: #fff;
+  margin: 0 10px;
+}
+
+.footer-section a:hover {
+  color: #6200ea; /* Custom hover color */
+}
+
+.footer-section .MuiSvgIcon-root {
+  font-size: 2rem;
+}

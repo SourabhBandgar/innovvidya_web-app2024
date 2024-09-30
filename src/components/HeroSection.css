@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"); /* Importing Poppins font */
+
+/* Hero Section Layout */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #fff;
+  height: 75vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.hero-content h1 {
+  font-size: 60px; /* Increased font size for impact */
+  font-family: "Poppins", sans-serif; /* Professional and modern font */
+  background: -webkit-linear-gradient(
+    #6200ea,
+    #ff7f50
+  ); /* Gradient text from purple to orange */
+  -webkit-background-clip: text; /* Clip background to the text */
+  -webkit-text-fill-color: transparent; /* Make text transparent to show gradient */
+  font-weight: 800; /* Bold text for emphasis */
+  text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow to add depth */
+  animation: textPop 2s ease-in-out; /* Text animation for a smooth pop-in effect */
+  line-height: 1.4;
+  margin-top: -20px; /* Adjust the position by moving it upwards */
+}
+
+/* Keyframe animation for text */
+@keyframes textPop {
+  0% {
+    opacity: 0;
+    transform: scale(0.8); /* Slightly scaled down at the start */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1); /* Full size and opacity at the end */
+  }
+}
+
+/* Hero Subheading (p) with slight animation */
+.hero-content p {
+  font-size: 20px; /* Slightly increased font size */
+  font-family: "Poppins", sans-serif; /* Same modern font as the headline */
+  color: #555; /* Soft gray color for contrast */
+  margin: 20px 0;
+  line-height: 1.4; /* Add some space between lines */
+  animation: subTextFadeIn 2s ease-in-out; /* Smooth fade-in animation */
+  text-align: justify; /* Justify the text */
+}
+
+/* Keyframe animation for subheading */
+@keyframes subTextFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px); /* Start slightly below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Move up smoothly */
+  }
+}
+
+/* CTA Buttons - Square Style */
+.cta-buttons {
+  margin-top: 30px; /* Move the buttons down independently of the h1 */
+}
+
+.cta-buttons .btn {
+  padding: 12px 30px; /* Keep padding for larger button */
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0; /* Square corners */
+  font-family: "Poppins", sans-serif; /* Modern font */
+  font-weight: 600; /* Slightly bolder text */
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+/* Primary Button Style */
+.btn-primary {
+  background-color: #6200ea; /* Purple background */
+  color: #fff; /* White text */
+}
+
+/* Hover Effect for Primary Button */
+.btn-primary:hover {
+  background-color: #3700b3; /* Darker purple on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Secondary Button Style */
+.btn-secondary {
+  background-color: #fff; /* White background */
+  color: #6200ea; /* Purple text */
+  border: 2px solid #6200ea; /* Purple border */
+}
+
+/* Hover Effect for Secondary Button */
+.btn-secondary:hover {
+  background-color: #6200ea; /* Change background to purple */
+  color: #fff; /* White text on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.hero-image {
+  flex: 1;
+  text-align: right;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+  }
+
+  .hero-content {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-image {
+    text-align: center;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Keyframes for Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.cta-button {
+  padding: 12px 25px;
+  background-color: #6200ea;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none; /* Ensure it looks like a button */
+}
+
+.cta-button:hover {
+  background-color: #4e00b8; /* Change on hover */
+}
+
+.hero-content {
+  text-align: center;
+  padding: 100px 20px;
+}

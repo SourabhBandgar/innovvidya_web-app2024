@@ -1,0 +1,52 @@
+.features-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.features-heading {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.feature-box {
+  padding: 20px;
+  height: 250px; /* Decrease height for smaller boxes */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the top */
+}
+
+.icon-container {
+  margin: 0 auto;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .features-heading {
+    font-size: 2rem;
+  }
+  .feature-box {
+    height: auto; /* Let the height adjust based on the content */
+  }
+  .feature-description {
+    font-size: 12px;
+  }
+}

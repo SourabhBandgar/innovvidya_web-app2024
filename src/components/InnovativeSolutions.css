@@ -1,0 +1,90 @@
+/* Custom styling for the heading */
+
+.innovative-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  background: -webkit-linear-gradient(45deg, #fbc02d, #6200ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.innovative-heading span {
+  color: #ff7f50;
+}
+
+/* Keyframe for fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Custom styling for justified text inside each box */
+.justified-text {
+  text-align: justify;
+  line-height: 1.6; /* Adjusting line height for readability */
+  margin-top: 10px; /* Adding some margin for spacing */
+}
+/* Styling for the boxes and animations */
+
+/* Animation for boxes on hover */
+.solution-box {
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s forwards ease-in-out;
+}
+
+/* Fade-in for text and box hover effect */
+.box-wrapper:hover .solution-box {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Color themes for the boxes */
+.purple-box {
+  background-color: #6200ea;
+  color: white;
+}
+
+.yellow-box {
+  background-color: #fbc02d;
+  color: black;
+}
+
+.orange-box {
+  background-color: #ff7f50;
+  color: white;
+}
+
+/* Animation to make the boxes appear smoothly */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Custom styling for justified text inside each box */
+.justified-text {
+  text-align: justify;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+innovative-heading {
+  font-weight: bold;
+  color: #333;
+}
