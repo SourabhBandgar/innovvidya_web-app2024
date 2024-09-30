@@ -1,10 +1,10 @@
-#InnovVidya Web Application
+# InnovVidya Web Application
 
-##Project Overview:
+## Project Overview:
 
 InnovVidya is a holistic web application aimed at reducing dropout rates in schools by providing personalized education, early interventions, and practical skill development opportunities for students. It uses cutting-edge technologies like AI and machine learning to track student performance, and innovative platforms like Edu-Lance to engage students in real-world projects.The project consists of multiple modules such as AI-Driven Early Warning System, Freelance Platforms, and Financial Aid Management, ensuring a comprehensive educational experience.
 
-##Features:
+## Features:
 
 1.AI-Driven Early Warning System:
 Uses AI to monitor students' attendance, grades, and emotional well-being.
@@ -26,7 +26,7 @@ Provides on-demand access to mentors and emotional counselors for students.
 6.Mobile Accessibility:
 Full mobile support for students to access resources from any device.
 
-##Technologies Used:
+## Technologies Used:
 
 Frontend: React, React-Spring for animations, Material-UI for components, and CSS3 for styling.
 
